@@ -35,6 +35,7 @@ main:
 # In _data/navigation.yml
   - title: "CV2"
     url: /files/230103009.pdf
+    target: "_blank"
 
     
   # - title: "Guide"
