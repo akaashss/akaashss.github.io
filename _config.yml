@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Akaash S S"
 title_separator          : "-"
 name                     : &name "Akaash S S"
@@ -25,7 +25,7 @@ author:
   avatar           : "images/profile2A (1)(1).png"
   name             : "Akaash S S"
   pronouns         : # example: "she/her"  
-  bio              : "AAA Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
+  bio              : "Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
   location         : "IIT Guwahati"
   employer         : "IIT Guwahati"
   uri              : # URL
