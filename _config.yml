@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Akaash S S"
 title_separator          : "-"
 name                     : &name "Akaash S S"
-description              : &description "AA Personal academic website of Akaash S S, featuring projects, research, and learning in robotics and mechatronics."
+description              : &description "Personal academic website of Akaash S S, featuring projects, research, and learning in robotics and mechatronics."
 url                      : https://akaashss.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akaashss/akaashss.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "images/profile2A (1)(1).png"
   name             : "Akaash S S"
   pronouns         : # example: "she/her"  
-  bio              : "Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
+  bio              : "AA Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
   location         : "IIT Guwahati"
   employer         : "IIT Guwahati"
   uri              : # URL
