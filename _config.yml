@@ -28,7 +28,7 @@ author:
   bio              : "Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
   location         : "Guwahati, India"
   employer         : "IIT Guwahati"
-  uri              : "https://iitg.ac.in"
+  uri              : # url
   email            : "akaashevps@gmail.com" 
 
   # Academic websites
