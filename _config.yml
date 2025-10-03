@@ -25,7 +25,7 @@ author:
   avatar           : "images/profile2A (1)(1).png"
   name             : "Akaash S S"
   pronouns         : # example: "she/her"  
-  bio              : "AA Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
+  bio              : "AAA Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
   location         : "IIT Guwahati"
   employer         : "IIT Guwahati"
   uri              : # URL
@@ -152,9 +152,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-SLKVJ3MVN8"
 
 
 # Reading Files
