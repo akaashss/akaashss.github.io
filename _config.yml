@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Akaash S S"
 title_separator          : "-"
 name                     : &name "Akaash S S"
-description              : &description "Personal academic website of Akaash S S, featuring projects, research, and learning in robotics and mechatronics."
+description              : &description "AA Personal academic website of Akaash S S, featuring projects, research, and learning in robotics and mechatronics."
 url                      : https://akaashss.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akaashss/akaashss.github.io"
@@ -126,7 +126,8 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification : "google864df66a342d5c1b"
+google_site_verification : "pMirWRFhz1VcSoQxE-02aU-ufyHWvwnwCU5JwN75hFc"
+#<meta name="google-site-verification" content="pMirWRFhz1VcSoQxE-02aU-ufyHWvwnwCU5JwN75hFc" />
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
