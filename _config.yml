@@ -8,14 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Akaash S S"
 title_separator          : "-"
 name                     : &name "Akaash S S"
-description              : &description "personal description"
+description              : &description "Personal academic website of Akaash S S, featuring projects, research, and learning in robotics and mechatronics."
 url                      : https://akaashss.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "akaashss/akaashss.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,7 +25,7 @@ author:
   avatar           : "images/profile2A (1)(1).png"
   name             : "Akaash S S"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
   location         : "IIT Guwahati"
   employer         : "IIT Guwahati"
   uri              : # URL
@@ -121,12 +121,12 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "google864df66a342d5c1b"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
