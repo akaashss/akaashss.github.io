@@ -6,4 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Mechanical Engineering undergraduate at IIT Guwahati with a Minor in Electronics and Communication, fascinated by the interplay of mechanics, electronics, and control in intelligent systems. I enjoy exploring robotics and mechatronics through study, simulation, and iterative problem-solving, seeking to understand how ideas can become functional systems.
+
+
+I am a Mechanical Engineering undergraduate at IIT Guwahati with a Minor in Electronics and Communication, curious about how machines sense, decide, and act. I explore robotics and mechatronics through study and simulation, seeking to understand how concepts can translate into functional systems.
