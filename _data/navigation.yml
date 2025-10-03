@@ -31,6 +31,11 @@ main:
     
   - title: "CV"
     url: /cv-json/
+
+# In _data/navigation.yml
+  - title: "CV2"
+    url: /files/cv.pdf
+
     
   # - title: "Guide"
   #   url: /markdown/
