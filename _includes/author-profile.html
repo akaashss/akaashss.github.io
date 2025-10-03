@@ -31,16 +31,17 @@
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %} -->
       {% if author.employer and author.uri %}
-        <li class="author__desktop" style="display: flex; align-items: center; gap: 0.3rem;">
-          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
+        <li class="author__desktop" style="display:flex; align-items:center; gap:0.2rem;">
+          <i class="fas fa-fw fa-building-columns" style="vertical-align:middle;" aria-hidden="true"></i>
           <a href="{{ author.uri }}" target="_blank">{{ author.employer }}</a>
         </li>
       {% elsif author.employer %}
-        <li class="author__desktop" style="display: flex; align-items: center; gap: 0.3rem;">
-          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
+        <li class="author__desktop" style="display:flex; align-items:center; gap:0.2rem;">
+          <i class="fas fa-fw fa-building-columns" style="vertical-align:middle;" aria-hidden="true"></i>
           {{ author.employer }}
         </li>
       {% endif %}
+
 
       <!-- {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
