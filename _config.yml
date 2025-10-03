@@ -22,7 +22,7 @@ repository               : "akaashss/akaashss.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile2C.png"
+  avatar           : "profile2B.png"
   name             : "Akaash S S"
   pronouns         : # example: "she/her"  
   bio              : "Pre-final year Mechanical Engineering student at IIT Guwahati, interested in robotics and mechatronics."
