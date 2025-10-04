@@ -1,3 +1,18 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Select all anchor tags
+    const links = document.querySelectorAll('a[href]');
+    links.forEach(link => {
+      // Open external links in a new tab
+      if (link.hostname && link.hostname !== window.location.hostname) {
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      }
+    });
+  });
+</script>
