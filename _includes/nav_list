@@ -2,43 +2,40 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
-  {% if page.sidebar.title %}<header><h4 class="nav__title" style="padding: 0;">{{ page.sidebar.title }}</h4></header>{% endif %}
+  {% if page.sidebar.title %}
+    <header><h4 class="nav__title" style="padding: 0;">{{ page.sidebar.title }}</h4></header>
+  {% endif %}
   <ul>
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
-          {% comment %}internal/external URL check{% endcomment %}
           {% if nav.url contains "://" %}
-            {% assign domain = "" %}
+            <!-- External link: open in new tab -->
+            <a href="{{ nav.url }}" target="_blank" rel="noopener noreferrer">
+              <span class="nav__sub-title">{{ nav.title }}</span>
+            </a>
           {% else %}
-            {% assign domain = base_path %}
+            <!-- Internal link: same tab -->
+            <a href="{{ base_path }}{{ nav.url }}">
+              <span class="nav__sub-title">{{ nav.title }}</span>
+            </a>
           {% endif %}
-
-          <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
 
         {% if nav.children != null %}
-        <ul>
-          {% for child in nav.children %}
-            {% comment %}internal/external URL check{% endcomment %}
-            {% if child.url contains "://" %}
-              {% assign domain = "" %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-
-            {% comment %}set "active" class on current page{% endcomment %}
-            {% if child.url == page.url %}
-              {% assign active = "active" %}
-            {% else %}
-              {% assign active = "" %}
-            {% endif %}
-
-            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
-          {% endfor %}
-        </ul>
+          <ul>
+            {% for child in nav.children %}
+              {% if child.url contains "://" %}
+                <!-- External child link -->
+                <li><a href="{{ child.url }}" target="_blank" rel="noopener noreferrer">{{ child.title }}</a></li>
+              {% else %}
+                <!-- Internal child link -->
+                <li><a href="{{ base_path }}{{ child.url }}" class="{% if child.url == page.url %}active{% endif %}">{{ child.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
         {% endif %}
       </li>
     {% endfor %}
