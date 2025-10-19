@@ -6,7 +6,7 @@ permalink: /publication/2025-10-15-adaptive-intelligent-control-industrial-robot
 excerpt: "A comprehensive study on the evolution of adaptive and intelligent control techniques for industrial robots, emphasizing architectural frameworks, algorithmic advances, and future research directions."
 date: 2025-10-15
 venue: 'IETE Technical Review (Communicated)'
-slidesurl: ''
+[//]: # slidesurl: ''
 paperurl: ''
 bibtexurl: ''
 citation: ''
