@@ -7,8 +7,8 @@ excerpt: "A comprehensive study on the evolution of adaptive and intelligent con
 date: 2025-10-15
 venue: 'IETE Technical Review (Communicated)'
 [//]: # slidesurl: ''
-paperurl: ''
-bibtexurl: ''
-citation: ''
+[//]: # paperurl: ''
+[//]: # bibtexurl: ''
+[//]: # citation: ''
 ---
 This paper provides an extensive review of adaptive and intelligent control methodologies applied to industrial robots. It categorizes various control paradigms such as model reference adaptive control, intelligent hybrid architectures, and reinforcement learning–based strategies. The review highlights challenges in real-time adaptation, computational efficiency, and the integration of AI techniques in robotic control frameworks.
