@@ -34,7 +34,7 @@ main:
 
 # In _data/navigation.yml
   - title: "CV"
-    url: /files/230103009.pdf
+    url: /files/CV_Internship.pdf
     target: "_blank"
 
     
